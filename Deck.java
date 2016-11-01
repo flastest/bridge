@@ -1,7 +1,8 @@
+import java.util.ArrayList;
 
 public class Deck
 {
-	private Card[] cards;
+	private ArrayList<Card> cards;
 
 	public Deck()
 	{
@@ -14,16 +15,20 @@ public class Deck
 		{
 			for (int v = 0; v < 13; v++) // loop through all numbers (from 2 to Ace)
 			{
-				cards.append(new Card(s, v));
+				cards;
 			}
 		}
 	}
 
 	public Card removeCard()
 	{
-		sChoice = (int) (Math.random() * 4);
-		vChoice = (int) (Math.random() * 13); //choose a random card
+		int sChoice = (int) (Math.random() * 4);
+		int vChoice = (int) (Math.random() * 13); //choose a random card
 
+		for (Card card : cards) // loop through all the cards
+		{ 
+			if ()
+		}
 
 	}
 
