@@ -1,2 +1,5 @@
 # bridge
-bridge hte car d game
+bridge the card game!
+
+
+WIP
